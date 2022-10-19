@@ -1,0 +1,48 @@
+.carousel {
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width:370px;
+  height:450px;
+  border-radius: 25px;
+  background-color: rgba(0,0,0,0);
+  overflow: hidden;
+}
+
+body {
+  background-color: #3B4252;
+}
+
+.fa-brands:hover,
+.fa-solid:hover {
+  color: white;
+  transform: scale(1.7);
+}
+.fa-brands,
+.fa-solid{
+  color: #81A1C1;
+  font-size: 1.1rem;
+  margin: 10px;
+  padding: 10px;
+  text-decoration: none;
+  transition: .2s;
+  text-align: right;
+  transition-timing-function: ease-in-out;
+}
+
+.ewan {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+#b1,#b2,#b3,#b4{
+  transition: .1s;
+  transition-timing-function: ease-in-out;
+}
+
+#b1:hover,
+#b2:hover,
+#b3:hover,
+#b4:hover{
+  transform: scale(1.1);
+}
